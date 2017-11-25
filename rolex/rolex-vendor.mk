@@ -2465,7 +2465,6 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
-    SmartcardService \
     SVIService \
     com.qti.location.sdk \
     qcrilhook
