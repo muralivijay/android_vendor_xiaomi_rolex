@@ -293,6 +293,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/rolex/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/rolex/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
+    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_lc_19.so:system/lib/libmiomxinterface_lc_19.so \
+    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_mt_19.so:system/lib/libmiomxinterface_mt_19.so \
+    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_nv_19.so:system/lib/libmiomxinterface_nv_19.so \
+    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_qc_19.so:ssystem/lib/libmiomxinterface_qc_19.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
