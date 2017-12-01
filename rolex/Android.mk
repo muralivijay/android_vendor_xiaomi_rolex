@@ -247,5 +247,13 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
+
+RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
+$(foreach f, $(notdir $(RADIO_FILES)), \
+    $(call add-radio-file,radio/$(f)))
+$(call add-radio-file,../../../device/xiaomi/rolex/radio/filesmap)
+
+endif
 
 endif
