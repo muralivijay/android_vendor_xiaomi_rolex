@@ -2452,7 +2452,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/rolex/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/rolex/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db
+    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/app/footej/Footej.apk:system/app/footej/Footej.apk 
+
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
