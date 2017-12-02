@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/xiaomi/rolex/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/xiaomi/rolex/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/rolex/proprietary/bin/cnd:system/bin/cnd \
     vendor/xiaomi/rolex/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/rolex/proprietary/bin/cnss_diag:system/bin/cnss_diag \
