@@ -255,7 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/rolex/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/xiaomi/rolex/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/xiaomi/rolex/proprietary/framework/qcom.fmradio.jar:system/framework/qcom.fmradio.jar \
     vendor/xiaomi/rolex/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/rolex/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/rolex/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
