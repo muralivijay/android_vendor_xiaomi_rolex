@@ -293,24 +293,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/rolex/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/xiaomi/rolex/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
-<<<<<<< HEAD
-    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_lc_19.so:system/lib/libmiomxinterface_lc_19.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_mt_19.so:system/lib/libmiomxinterface_mt_19.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_nv_19.so:system/lib/libmiomxinterface_nv_19.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmiomxinterface_qc_19.so:ssystem/lib/libmiomxinterface_qc_19.so \
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 446f32c1744f8feeb6b4cfe34cda29f4f28f4fe3
     vendor/xiaomi/rolex/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
-<<<<<<< HEAD
->>>>>>> parent of b33d2e4...  update omx from miui 8.5.10.0 global rom
-=======
->>>>>>> 446f32c1744f8feeb6b4cfe34cda29f4f28f4fe3
     vendor/xiaomi/rolex/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
