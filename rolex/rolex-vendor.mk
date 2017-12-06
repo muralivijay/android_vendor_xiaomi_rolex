@@ -310,10 +310,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
     vendor/xiaomi/rolex/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/xiaomi/rolex/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libMpeg4SwEncoder.so:system/vendor/lib/libMpeg4SwEncoder.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib64/libMpeg4SwEncoder.so:system/vendor/lib64/libMpeg4SwEncoder.so \
     vendor/xiaomi/rolex/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/rolex/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/rolex/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
