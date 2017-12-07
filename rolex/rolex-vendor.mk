@@ -2451,6 +2451,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/xiaomi/rolex/proprietary/app/footej/footej.apk:system/app/footej/footej.apk 
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/rolex/proprietary,system)
+
 PRODUCT_PACKAGES += \
     libtime_genoff \
     libts_detected_face_hal \
