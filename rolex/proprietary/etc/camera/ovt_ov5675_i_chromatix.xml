@@ -82,10 +82,6 @@ special_mode_mask values:
       <ISPCommon>ovt_ov5675_i_common</ISPCommon>
       <PostProc>ovt_ov5675_i_postproc</PostProc>
     </ChromatixName>
-    <ChromatixName special_mode_mask="TORCH_CHROMATIX">
-      <ISPCommon>ovt_ov5675_i_common_torch</ISPCommon>
-      <PostProc>ovt_ov5675_i_postproc_torch</PostProc>
-    </ChromatixName>
   </CommonChromatixInfo>
   <ResolutionChromatixInfo>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="0">
@@ -99,17 +95,6 @@ special_mode_mask values:
       <A3Preview>ovt_ov5675_i_zsl_preview_3a</A3Preview>
       <A3Video>ovt_ov5675_i_zsl_video_3a</A3Video>
     </ChromatixName>
-    <ChromatixName sensor_resolution_index="0" special_mode_mask="TORCH_CHROMATIX">
-      <ISPPreview>ovt_ov5675_i_snapshot_torch</ISPPreview>
-      <ISPSnapshot>ovt_ov5675_i_snapshot_torch</ISPSnapshot>
-      <ISPVideo>ovt_ov5675_i_snapshot_torch</ISPVideo>
-      <CPPPreview>ovt_ov5675_i_cpp_preview_torch</CPPPreview>
-      <CPPSnapshot>ovt_ov5675_i_cpp_snapshot_torch</CPPSnapshot>
-      <CPPVideo>ovt_ov5675_i_cpp_video_torch</CPPVideo>
-      <CPPLiveshot>ovt_ov5675_i_cpp_liveshot_torch</CPPLiveshot>
-      <A3Preview>ovt_ov5675_i_zsl_preview_3a_torch</A3Preview>
-      <A3Video>ovt_ov5675_i_zsl_video_3a_torch</A3Video>
-    </ChromatixName>
     <ChromatixName sensor_resolution_index="1" special_mode_mask="0">
       <ISPPreview>ovt_ov5675_i_snapshot</ISPPreview>
       <ISPSnapshot>ovt_ov5675_i_snapshot</ISPSnapshot>
@@ -120,17 +105,6 @@ special_mode_mask values:
       <CPPLiveshot>ovt_ov5675_i_cpp_liveshot</CPPLiveshot>
       <A3Preview>ovt_ov5675_i_default_preview_3a</A3Preview>
       <A3Video>ovt_ov5675_i_default_video_3a</A3Video>
-    </ChromatixName>
-    <ChromatixName sensor_resolution_index="1" special_mode_mask="TORCH_CHROMATIX">
-      <ISPPreview>ovt_ov5675_i_snapshot_torch</ISPPreview>
-      <ISPSnapshot>ovt_ov5675_i_snapshot_torch</ISPSnapshot>
-      <ISPVideo>ovt_ov5675_i_snapshot_torch</ISPVideo>
-      <CPPPreview>ovt_ov5675_i_cpp_preview_torch</CPPPreview>
-      <CPPSnapshot>ovt_ov5675_i_cpp_snapshot_torch</CPPSnapshot>
-      <CPPVideo>ovt_ov5675_i_cpp_video_torch</CPPVideo>
-      <CPPLiveshot>ovt_ov5675_i_cpp_liveshot_torch</CPPLiveshot>
-      <A3Preview>ovt_ov5675_i_default_preview_3a_torch</A3Preview>
-      <A3Video>ovt_ov5675_i_default_video_3a_torch</A3Video>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="0">
       <ISPPreview>ovt_ov5675_i_hfr_60</ISPPreview>
