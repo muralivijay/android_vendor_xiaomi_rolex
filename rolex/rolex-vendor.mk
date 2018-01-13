@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/xiaomi/rolex/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/xiaomi/rolex/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/xiaomi/rolex/proprietary/bin/mm-vidc-omx-test:system/bin/mm-vidc-omx-test \
     vendor/xiaomi/rolex/proprietary/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
     vendor/xiaomi/rolex/proprietary/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb:system/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
     vendor/xiaomi/rolex/proprietary/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:system/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
@@ -191,6 +192,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
+    vendor/xiaomi/rolex/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
     vendor/xiaomi/rolex/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
@@ -903,6 +905,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_video.so:system/vendor/lib/libchromatix_imx258_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_preview_3a.so:system/vendor/lib/libchromatix_imx258_default_preview_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_video_3a.so:system/vendor/lib/libchromatix_imx258_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_video.so:system/vendor/lib/libchromatix_imx258_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_120_3a.so:system/vendor/lib/libchromatix_imx258_hfr_120_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:system/vendor/lib/libchromatix_imx258_hfr_120.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_60_3a.so:system/vendor/lib/libchromatix_imx258_hfr_60_3a.so \
@@ -2424,6 +2427,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so:system/vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
@@ -2449,8 +2455,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/rolex/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db  
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/xiaomi/rolex/proprietary,system)
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
