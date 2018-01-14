@@ -247,6 +247,7 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+<<<<<<< HEAD
 include $(CLEAR_VARS)
 LOCAL_MODULE := LenovoCamera
 LOCAL_MODULE_TAGS := optional
@@ -267,4 +268,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
+=======
+>>>>>>> parent of b568987...  we use lenovocamera as default
 endif

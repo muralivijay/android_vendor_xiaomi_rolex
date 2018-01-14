@@ -2454,25 +2454,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/rolex/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/rolex/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/xiaomi/rolex/proprietary/lib/lib3DJPG.so:system/lib/lib3DJPG.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLe3D.so:system/lib/libLe3D.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLeCSC.so:system//lib/libLeCSC.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLeCSCJni.so:system/lib/libLeCSCJni.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLeConvertDataToTexture.so:system/lib/libLeConvertDataToTexture.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLeImage.so:system/lib/libLeImage.so \
-    vendor/xiaomi/rolex/proprietary/lib/libLeImageJni.so:system/lib/libLeImageJni.so \
-    vendor/xiaomi/rolex/proprietary/lib/libati_framework_imagecodec_v2.0.2.so:system/lib/libati_framework_imagecodec_v2.0.2.so \
-    vendor/xiaomi/rolex/proprietary/lib/libati_framework_v2.0.1.so:system/lib/libati_framework_v2.0.1.so \
-    vendor/xiaomi/rolex/proprietary/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
-    vendor/xiaomi/rolex/proprietary/lib/libjpeg-support.so:system/lib/libjpeg-support.so \
-    vendor/xiaomi/rolex/proprietary/lib/liblocSDK5.so:system/lib/liblocSDK5.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmmtScore.so:system/lib/libmmtScore.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmtprocessor-jni.so:system/lib/libmtprocessor-jni.so \
-    vendor/xiaomi/rolex/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
-    vendor/xiaomi/rolex/proprietary/lib/libscg_expression_gesture_jni.so:system/lib/libscg_expression_gesture_jni.so \
-    vendor/xiaomi/rolex/proprietary/lib/libscg_face_detect.so:system/lib/libscg_face_detect.so \
-    vendor/xiaomi/rolex/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so 
+    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db  
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
