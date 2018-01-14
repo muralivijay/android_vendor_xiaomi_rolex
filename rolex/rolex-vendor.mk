@@ -2454,7 +2454,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/xiaomi/rolex/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/rolex/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db  
+    vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/xiaomi/rolex/proprietary/app/htccamera/htccamera.apk:system/app/htccamera/htccamera.apk \
+    vendor/xiaomi/rolex/proprietary/app/Camera/Camera.apk:system/app/Camera/Camera.apk \
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
