@@ -2472,9 +2472,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
     vendor/xiaomi/rolex/proprietary/lib/libscg_expression_gesture_jni.so:system/lib/libscg_expression_gesture_jni.so \
     vendor/xiaomi/rolex/proprietary/lib/libscg_face_detect.so:system/lib/libscg_face_detect.so \
-    vendor/xiaomi/rolex/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so \
-    vendor/xiaomi/rolex/proprietary/app/htccamera/htccamera.apk:system/app/htccamera/htccamera.apk \
-    vendor/xiaomi/rolex/proprietary/app/LenovoCamera/LenovoCamera.apk:system/app/LenovoCamera/LenovoCamera.apk
+    vendor/xiaomi/rolex/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so 
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
