@@ -2455,7 +2455,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/xiaomi/rolex/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
     vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db \
-    vendor/xiaomi/rolex/proprietary/app/htccamera/htccamera.apk:system/app/htccamera/htccamera.apk \
+    vendor/xiaomi/rolex/proprietary/app/LenovoCamera/LenovoCamera.apk:system/app/LenovoCamera/LenovoCamera.apk \
     vendor/xiaomi/rolex/proprietary/app/Camera/Camera.apk:system/app/Camera/Camera.apk \
     vendor/xiaomi/rolex/proprietary/lib/lib3DJPG.so:system/lib/lib3DJPG.so \
     vendor/xiaomi/rolex/proprietary/lib/libLe3D.so:system/lib/libLe3D.so \
