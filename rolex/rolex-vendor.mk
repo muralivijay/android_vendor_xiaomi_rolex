@@ -2474,7 +2474,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/libopencv_java.so:system/lib/libopencv_java.so \
     vendor/xiaomi/rolex/proprietary/lib/libscg_expression_gesture_jni.so:system/lib/libscg_expression_gesture_jni.so \
     vendor/xiaomi/rolex/proprietary/lib/libscg_face_detect.so:system/lib/libscg_face_detect.so \
-    vendor/xiaomi/rolex/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so 
+    vendor/xiaomi/rolex/proprietary/lib/libscg_mmtScore.so:system/lib/libscg_mmtScore.so \
+    vendor/xiaomi/rolex/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmdtp_crypto.so:system/vendor/lib/libmdtp_crypto.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so 
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
