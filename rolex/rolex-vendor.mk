@@ -2479,7 +2479,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/xiaomi/rolex/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/xiaomi/rolex/proprietary/bin/vm_bms:system/bin/vm_bms \
-
+    vendor/xiaomi/rolex/proprietary/bin/charger_monitor:system/bin/charger_monitor 
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
