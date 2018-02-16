@@ -2487,6 +2487,7 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal \
     datastatusnotification \
     embms \
+    fastdormancy \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
