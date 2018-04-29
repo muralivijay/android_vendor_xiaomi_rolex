@@ -1942,7 +1942,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/xiaomi/rolex/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
+    vendor/xiaomi/rolex/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
