@@ -166,6 +166,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libdualcameraddm.so:system/vendor/lib64/libdualcameraddm.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libjni_dualcamera.so:system/vendor/lib64/libjni_dualcamera.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libflash_gpio.so:system/vendor/lib/libflash_gpio.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_platform.so:system/vendor/lib/libmmsw_platform.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
