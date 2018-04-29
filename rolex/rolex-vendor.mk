@@ -167,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libjni_dualcamera.so:system/vendor/lib64/libjni_dualcamera.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libflash_gpio.so:system/vendor/lib/libflash_gpio.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_math.so:system/vendor/lib/libmmsw_math.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmsw_opencl.so:system/vendor/lib/libmmsw_opencl.so \
