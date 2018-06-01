@@ -2529,6 +2529,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/bin/healthd:system/bin/healthd
 
 PRODUCT_PACKAGES += \
+    vendor.display.color@1.0 \
+    vendor.qti.hardware.iop@1.0 \
+    libgpustats \
     libsdm-disp-vndapis \
     libantradio \
     vendor.qti.hardware.fm@1.0 \
