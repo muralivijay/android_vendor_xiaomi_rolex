@@ -2524,8 +2524,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/rolex/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
-    vendor/xiaomi/rolex/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
-    vendor/xiaomi/rolex/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/hw/lights.msm8937.so:system/vendor/lib/hw/lights.msm8937.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/hw/lights.msm8937.so:system/vendor/lib64/hw/lights.msm8937.so \
     vendor/xiaomi/rolex/proprietary/bin/healthd:system/bin/healthd
 
 PRODUCT_PACKAGES += \
